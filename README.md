@@ -7,7 +7,7 @@ The purpose of this project is to learn more better! I will be getting familiar 
 <ol>
   <li>Incorporate HTML, CSS, and JavaScript. Flawless indentation and Syntax</li>
   <li>Require user input and add functions to validate the input</li>
-  <li>Add descriptive console log message/li>
+  <li>Add descriptive console log message</li>
   <li>Frequenty Add/Commit/Push to Git via the command line. Be detailed in my commit message!</li>
 </ol>  
 
