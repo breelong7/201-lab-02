@@ -18,4 +18,19 @@ if(isPsychic === 'yes'){
   alert('That is not correct. Since Breenie has been stuck in the lamp for thousands of years with nobody to talk to, she will give you another chance.');
 }
 
-var 
+var likesBeach = prompt('Does Breenie prefer a warm sunny beach over a snowy mountain?');
+
+if(likesBeach === 'yes'){
+  alert('That\'s correct! You are well on your way to having a wish granted.');
+} else{
+  alert('Incorrect! It\'s almost as if you don\'t want a wish granted!');
+}
+
+var likesFroyo = prompt('Does our almighty genie love froyo aka frozen yogurt?');
+
+if(likesFroyo === 'yes'){
+  alert('Another correct answer!');
+} else{
+  alert('Sorry, that\'s wrong. I mean, who doesn\'t like froyo?');
+}
+
