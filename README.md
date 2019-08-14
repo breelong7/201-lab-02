@@ -11,27 +11,15 @@ The purpose of this project is to learn more better! I will be getting familiar 
   <li>Frequently Add/Commit/Push to Git via the command line. Be detailed in my commit message!</li>
 </ol>  
 
-### Code Example
-
-
 ### Tools Used
   <ul>
     <li>VS Code</li>
-
+    <li>W3 Schools Element Tester</li>
   </ul>  
 
 
 ### Motivation
 I wanted to get creative and have a little fun with this project, rather than just pick 5 questions to ask someone about myself. I decided I wanted to be a genie who would grant one wish if the user answered questions about myself correctly. Naturally, my genie name is Breenie.
-
-
-### Installation
-
-
-### Tests
-
-
-### Contributors
 
 
 ### License
