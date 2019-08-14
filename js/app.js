@@ -44,7 +44,7 @@ if(likesFroyo === 'yes' || likesFroyo === 'y'){
 
 var likesExplore = prompt('Does Breenie prefer napping over exploring?');
 likesExplore = likesExplore.toLowerCase();
-console.log('Does Breenie like to explore? ' + likesExplore);
+console.log('Does Breenie like to nap more than explore? ' + likesExplore);
 
 if(likesExplore === 'no' || likesExplore === 'n'){
   alert('That\'s correct my friend!');
