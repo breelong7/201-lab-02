@@ -21,7 +21,7 @@ if(isPsychic === 'yes'){
 }
 
 var likesBeach = prompt('Does Breenie prefer a warm sunny beach over a snowy mountain?');
-console.log('Does Breenie like the beach? ' + likesBeach)
+console.log('Does Breenie like the beach? ' + likesBeach);
 
 if(likesBeach === 'yes'){
   alert('That\'s correct! You are well on your way to having a wish granted.');
@@ -30,6 +30,7 @@ if(likesBeach === 'yes'){
 }
 
 var likesFroyo = prompt('Does our almighty genie love froyo aka frozen yogurt?');
+console.log('Does Breenie like froyo? ' + likesFroyo);
 
 if(likesFroyo === 'yes'){
   alert('Another correct answer!');
@@ -37,9 +38,10 @@ if(likesFroyo === 'yes'){
   alert('Sorry, that\'s wrong. I mean, who doesn\'t like froyo?');
 }
 
-var likesNap = prompt('Does Breenie prefer napping over exploring?');
+var likesExplore = prompt('Does Breenie prefer napping over exploring?');
+console.log('Does Breenie like to explore? ' + likesExplore);
 
-if(likesNap === 'no'){
+if(likesExplore === 'no'){
   alert('That\'s correct my friend!');
 } else{
   alert('Incorrect! Breenie is stuck in a lamp the majority of the time. She prefers to explore!');
