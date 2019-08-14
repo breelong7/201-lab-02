@@ -17,7 +17,7 @@ isPsychic = isPsychic.toLowerCase();
 console.log('Is Breenie psychic? ' + isPsychic);
 
 if(isPsychic === 'yes' || isPsychic === 'y'){
-  alert('Correct! Congrats to you for graduating Code 201 in October!');
+  alert('Correct! Congrats on the promotion your\'re about to get!');
 } else{
   alert('That is not correct. Since Breenie has been stuck in the lamp for thousands of years with nobody to talk to, she will give you another chance.');
 }
