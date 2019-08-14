@@ -3,6 +3,7 @@
 alert('Gasp! You have somehow stumbled upon an ancient webpage where the most powerful genie lies in wait! Answer 5 yes or no questions about Breenie the Genie, and she will grant any wish you can dream of. Good luck!');
 
 var dogsRule = prompt('Does Breenie prefer dogs over cats?');
+console.log('Does Breenie prefer dogs? ' + dogsRule);
 
 if(dogsRule ==='yes'){
   alert('Correct! That was an easy one. All powerful genies prefer dogs.');
@@ -11,6 +12,7 @@ if(dogsRule ==='yes'){
 }
 
 var isPsychic = prompt('Can Breenie see the future?');
+console.log('Is Breenie psychic? ' + isPsychic);
 
 if(isPsychic === 'yes'){
   alert('Correct! Congrats to you for graduating Code 201 in October!');
@@ -19,6 +21,7 @@ if(isPsychic === 'yes'){
 }
 
 var likesBeach = prompt('Does Breenie prefer a warm sunny beach over a snowy mountain?');
+console.log('Does Breenie like the beach? ' + likesBeach)
 
 if(likesBeach === 'yes'){
   alert('That\'s correct! You are well on your way to having a wish granted.');
@@ -34,3 +37,10 @@ if(likesFroyo === 'yes'){
   alert('Sorry, that\'s wrong. I mean, who doesn\'t like froyo?');
 }
 
+var likesNap = prompt('Does Breenie prefer napping over exploring?');
+
+if(likesNap === 'no'){
+  alert('That\'s correct my friend!');
+} else{
+  alert('Incorrect! Breenie is stuck in a lamp the majority of the time. She prefers to explore!');
+}
