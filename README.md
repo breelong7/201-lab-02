@@ -22,6 +22,7 @@ The purpose of this project is to learn more better! I will be getting familiar 
 
 
 ### Motivation
+I wanted to get creative and have a little fun with this project, rather than just pick 5 questions to ask someone about myself. I decided I wanted to be a genie who would grant one wish if the user answered questions about myself correctly. Naturally, my genie name is Breenie.
 
 
 ### Installation
