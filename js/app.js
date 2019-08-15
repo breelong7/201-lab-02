@@ -1,53 +1,57 @@
 'use strict';
 
-alert('Gasp! You have somehow stumbled upon an ancient webpage where the most powerful genie lies in wait! Answer 5 yes or no questions about Breenie the Genie, and she will grant any wish you can dream of. Good luck!');
+alert('Hey you! Glad you finally made it to my page! In here you will learn some facts about me and play a fun guessing game. Make sure you answer either yes, y, no, or n. Let\'s get started!');
 
-var dogsRule = prompt('Does Breenie prefer dogs over cats?');
+var userName = prompt('Tell me, what is your name?');
+
+var dogsRule = prompt(userName + ', do you think I like dogs?');
 dogsRule = dogsRule.toLowerCase();
-console.log('Does Breenie prefer dogs? ' + dogsRule);
+console.log('Does Bree prefer dogs? ' + dogsRule);
+
+// add counter
 
 if(dogsRule ==='yes' || dogsRule === 'y'){
-  alert('Correct! That was an easy one. All powerful genies prefer dogs.');
+  alert('Correct! That was an easy one.');
 } else{
-  alert('Incorrect! genies love dogs. Since Breenie is a merciful genie, she will allow you to continue');
+  alert('Incorrect! Sorry ' + userName + ', better luck next time.');
 }
 
-var isPsychic = prompt('Can Breenie see the future?');
-isPsychic = isPsychic.toLowerCase();
-console.log('Is Breenie psychic? ' + isPsychic);
+var likesSports = prompt('Do you think I enjoy watching sports?');
+likesSports = likesSports.toLowerCase();
+console.log('Does Bree like sports? ' + likesSports);
 
-if(isPsychic === 'yes' || isPsychic === 'y'){
-  alert('Correct! Congrats on the promotion your\'re about to get!');
+if(likesSports === 'yes' || likesSports === 'y'){
+  alert('Correct! I\'m a fan of Seattle Sounders and Seahawks! If only CenturyLink would lower their prices.');
 } else{
-  alert('That is not correct. Since Breenie has been stuck in the lamp for thousands of years with nobody to talk to, she will give you another chance.');
+  alert('That is not correct.');
 }
 
-var likesBeach = prompt('Does Breenie prefer a warm sunny beach over a snowy mountain?');
+var likesBeach = prompt('Do you think I prefer the beach over a snowy mountain?');
 likesBeach = likesBeach.toLowerCase();
-console.log('Does Breenie like the beach? ' + likesBeach);
+console.log('Does Bree like the beach? ' + likesBeach);
 
 if(likesBeach === 'yes' || likesBeach === 'y'){
-  alert('That\'s correct! You are well on your way to having a wish granted.');
+  alert('That\'s correct! Nothing better than the sun, ocean breeze, and a margarita');
 } else{
-  alert('Incorrect! It\'s almost as if you don\'t want a wish granted!');
+  alert('Sorry, wrong! Although I do like making snow angels, I\'d much rather be sunbathing.');
 }
 
-var likesFroyo = prompt('Does our almighty genie love froyo aka frozen yogurt?');
+var likesFroyo = prompt('I\'ve always had a major sweet tooth. Do you think my favorite dessert is frozen yogurt?');
 likesFroyo = likesFroyo.toLowerCase();
-console.log('Does Breenie like froyo? ' + likesFroyo);
+console.log('Does Bree like froyo? ' + likesFroyo);
 
 if(likesFroyo === 'yes' || likesFroyo === 'y'){
-  alert('Another correct answer!');
+  alert('100% Correct! My favorite flavor is cotton candy.');
 } else{
   alert('Sorry, that\'s wrong. I mean, who doesn\'t like froyo?');
 }
 
-var likesExplore = prompt('Does Breenie prefer napping over exploring?');
+var likesExplore = prompt('Does Bree prefer napping over exploring?');
 likesExplore = likesExplore.toLowerCase();
-console.log('Does Breenie like to nap more than explore? ' + likesExplore);
+console.log('Does Bree like to nap more than explore? ' + likesExplore);
 
 if(likesExplore === 'no' || likesExplore === 'n'){
   alert('That\'s correct my friend!');
 } else{
-  alert('Incorrect! Breenie is stuck in a lamp the majority of the time. She prefers to explore!');
+  alert('Nope! It\'s always adventure time.');
 }
