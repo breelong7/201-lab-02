@@ -55,3 +55,22 @@ if(likesExplore === 'no' || likesExplore === 'n'){
 } else{
   alert('Nope! It\'s always adventure time.');
 }
+
+
+var i;
+var count = 0;
+
+for(i = 0; i < 4; i++) {
+  var favNumber = prompt('What is my favorite number?');
+  if(favNumber === '13') {
+    alert('Correct! ');
+    break;
+  } else if(favNumber < 13) {
+    count++;
+    alert('Wrong! Too low');
+  } else if (favNumber > 13) {
+    count++;
+    alert('Incorrect! Too high');
+  }
+}
+
