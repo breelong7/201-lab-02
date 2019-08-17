@@ -77,17 +77,17 @@ for(i = 0; i < 4; i++) {
 
 
 // var countSports = 0;
-var sports = ['kickball', 'softball', 'volleyball', 'dodgeball'];
+// var sports = ['kickball', 'softball', 'volleyball', 'dodgeball'];
 
-var guessSports = prompt('Okay, here\'s the real test. I\'ll give you 6 attempts to guess at least one sport I have played. Ready, go!');
-console.log('guess sports value - ' + guessSports);
-for(var i = 0; i < 5; i++) {
-  if(guessSports === sports[i]) {
-    console.log('attempt ' + (i+1));
-    alert('Correct!');
-    break;
-  } else
-}
+// var guessSports = prompt('Okay, here\'s the real test. I\'ll give you 6 attempts to guess at least one sport I have played. Ready, go!');
+// console.log('guess sports value - ' + guessSports);
+// for(var i = 0; i < 5; i++) {
+//   if(guessSports === sports[i]) {
+//     console.log('attempt ' + (i+1));
+//     alert('Correct!');
+//     break;
+//   } else
+// }
 
 
 
