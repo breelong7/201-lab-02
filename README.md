@@ -15,6 +15,7 @@ The purpose of this project is to learn more better! I will be getting familiar 
   <ul>
     <li>VS Code</li>
     <li>W3 Schools Element Tester</li>
+    <li>GIF Credit: Ban-xia dribbble.com/Ban-xia
   </ul>  
 
 
