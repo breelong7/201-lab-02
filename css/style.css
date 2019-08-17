@@ -27,23 +27,23 @@
 }
 
 #aboutme {
-  font-family: Patua One;
-  font-size: 4em;
+  font-family: 'Patua One', cursive;
+  font-size: 3em;
   padding-left: 10px;
   
 }
 
 #eduwork {
-  font-family: Patua One;
-  font-size: 4em;
+  font-family: 'Patua One', cursive;
+  font-size: 3em;
   padding-left: 10px;
   display: inline-block;
   
 }
 
 #topten {
-  font-family: Patua One;
-  font-size: 4em;
+  font-family: 'Patua One', cursive;
+  font-size: 3em;
   padding-left: 10px;
   
 }
@@ -54,8 +54,6 @@
 }
 
 #footer {
-  position: absolute; 
-  left: 0 ; right: 0; bottom: 0; 
   font-size: x-small;
 }
   
@@ -70,7 +68,7 @@
 }
 
 .navlist {
-  font-family: Patua One;
+  font-family: 'Patua One', cursive;
 
 }
 
