@@ -48,7 +48,7 @@ if(likesFroyo === 'yes' || likesFroyo === 'y'){
 
 var likesExplore = prompt('Does Bree prefer napping over exploring?');
 likesExplore = likesExplore.toLowerCase();
-console.log('Does Bree like to nap more than explore? ' + likesExplore);
+console.log('Do I like to nap more than explore? ' + likesExplore);
 
 if(likesExplore === 'no' || likesExplore === 'n'){
   alert('That\'s correct my friend!');
@@ -62,6 +62,7 @@ var count = 0;
 
 for(i = 0; i < 4; i++) {
   var favNumber = prompt('What is my favorite number?');
+  console.log('What is Bree\'s favorite number?' + favNumber);
   if(favNumber === '13') {
     alert('Correct! ');
     break;
@@ -74,3 +75,28 @@ for(i = 0; i < 4; i++) {
   }
 }
 
+
+// var countSports = 0;
+var sports = ['kickball', 'softball', 'volleyball', 'dodgeball'];
+
+var guessSports = prompt('Okay, here\'s the real test. I\'ll give you 6 attempts to guess at least one sport I have played. Ready, go!');
+console.log('guess sports value - ' + guessSports);
+for(var i = 0; i < 5; i++) {
+  if(guessSports === sports[i]) {
+    console.log('attempt ' + (i+1));
+    alert('Correct!');
+    break;
+  } else
+}
+
+
+
+//   console.log('What sport have I played?');
+// if(guessSports === sports[0] || guessSports === sports[1]) {
+//   countSports++;
+//   alert('Great guess! That\'s correct.');
+// } else {
+//   alert('Incorrect');
+// }
+
+// console.log('What sports have I played? ' + sports);
