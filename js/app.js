@@ -67,12 +67,14 @@ for(var r = 0; r < 6; r++) {
     }
   }
   if(isCorrect) {
-    alert('That\'s correct!');
+    alert('That\'s correct! I have played ' + sports[0] + ', ' + sports[1] + ', ' + sports[2] + ', and ' + sports[3]);
     correctAnswerCount++;
     break;
   } else {
-    alert('Try again.');
+    alert('Try again!');
   }
+} if (s > sports.length){
+  alert('Sorry! You did not guess correctly. I have played ' + sports[0] + ', ' + sports[1] + ', ' + sports[2] + ', and ' + sports[3]);
 }
 
-alert('Your score is ' + correctAnswerCount + 'out of 7.');
+alert('Your score is ' + correctAnswerCount + ' out of 7.');
